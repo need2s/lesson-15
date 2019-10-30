@@ -1,0 +1,52 @@
+header img{
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background: white;
+    border: 2px solid black;
+}
+.authentication{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.authentication div{
+    background: black;
+    margin-left: 20px ;
+    padding: 0 10px;
+    color: rgb(249, 243, 255);
+}
+
+section p{
+    border: 2px solid black;
+}
+
+section div{
+    align-items: center;
+}
+
+footer div{
+    border: 2px solid black;
+    width: 30vw;
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.title h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.profile p{
+    padding: 10px;
+}
